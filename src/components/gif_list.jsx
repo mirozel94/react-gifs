@@ -6,12 +6,12 @@ class GifList extends Component {
   render() {
     return (
       <div className="gif-list">
-        <Gif id="3o6ZtpRoYe9wbyfcBi" />
-        <Gif id="3o6ZtpRoYe9wbyfcBi" />
-        <Gif id="3o6ZtpRoYe9wbyfcBi" />
-        <Gif id="3o6ZtpRoYe9wbyfcBi" />
-        <Gif id="3o6ZtpRoYe9wbyfcBi" />
-        <Gif id="3o6ZtpRoYe9wbyfcBi" />
+        <Gif id={this.props.ids[0]} />
+        <Gif id={this.props.ids[1]} />
+        <Gif id={this.props.ids[0]} />
+        <Gif id={this.props.ids[1]} />
+        <Gif id={this.props.ids[0]} />
+        <Gif id={this.props.ids[1]} />
       </div>
     );
   }

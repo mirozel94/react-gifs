@@ -12,4 +12,3 @@ class Gif extends Component {
 }
 
 export default Gif;
-
